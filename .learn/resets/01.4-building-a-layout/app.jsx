@@ -8,21 +8,13 @@ const data = {
 		"Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
 	button: {
 		url: "https://en.wikipedia.org/wiki/Bob_Dylan",
-		label: "Go to wikipedia",
-	},
+		label: "Go to wikipedia"
+	}
 };
 
-const content = (
-	<div className="card m-5">
-		<img alt="Card image cap" className="card-img-top" src="https://ucarecdn.com/f8cf81eb-3bab-4bba-9431-668884eab174/-/resize/300x/" />
-		<div className="card-body">
-			<h5 className="card-title">{data.cardTitle}</h5>
-			<p className="card-text">{data.cardDescription}</p>
-			<a className="btn btn-primary" href="https://en.wikipedia.org/wiki/Bob_Dylan">
-				{data.button.label}
-			</a>
-		</div>
-	</div>
-);
+/**
+ * define the variable 'content' here and fill it with the
+ * needed code to render the bootstrap card
+ **/
 
 ReactDOM.render(content, document.querySelector("#myDiv"));
